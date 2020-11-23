@@ -30,3 +30,7 @@ echo ""         #to print a new line
 
 #UC-6 : To store the results in dictionary for all computations
 Sort=( [res1]=$res1 [res2]=$res2 [res3]=$res3 [res4]=$res4 )
+
+#UC-7 : Read the value from the dictionary into an Array
+echo "All values store in Dictionary : ${Sort[@]}"
+echo ""
