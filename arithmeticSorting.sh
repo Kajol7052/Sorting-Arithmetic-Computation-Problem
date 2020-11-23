@@ -42,3 +42,13 @@ do
   echo $k ' - ' ${Sort["$k"]}
 done | sort -rn -k3
 echo ""
+
+#UC-9 : To sort the all results in Ascending order
+echo "Sorted results in Ascending order:"
+for k in "${!Sort[@]}"
+do
+  echo $k ' - ' ${Sort["$k"]}
+done | sort -n -k3
+
+
+
