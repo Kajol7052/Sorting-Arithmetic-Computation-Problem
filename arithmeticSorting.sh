@@ -11,3 +11,7 @@ echo ""
 #UC-2 : To compute Arithmetic result1
 res1=$((a+b*c))
 echo "Result1 : $res1"
+
+#UC-3 : To compute Arithmetic result2
+res2=$((a*b+c))
+echo "Result2 : $res2"
