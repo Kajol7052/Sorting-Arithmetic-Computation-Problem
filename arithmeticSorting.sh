@@ -19,3 +19,8 @@ echo "Result2 : $res2"
 #UC-4 : To compute Arithmetic result3
 res3=$((c+a/b))
 echo "Result3 : $res3"
+
+#UC-5 : To compute Arithmetic result4
+res4=$((a%b+c))
+echo "Result4 : $res4"
+echo ""         #to print a new line
