@@ -7,3 +7,7 @@ read -p "Enter first input :" a
 read -p "Enter second input:" b
 read -p "Enter third input :" c
 echo ""
+
+#UC-2 : To compute Arithmetic result1
+res1=$((a+b*c))
+echo "Result1 : $res1"
