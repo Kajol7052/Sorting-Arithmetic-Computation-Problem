@@ -34,3 +34,11 @@ Sort=( [res1]=$res1 [res2]=$res2 [res3]=$res3 [res4]=$res4 )
 #UC-7 : Read the value from the dictionary into an Array
 echo "All values store in Dictionary : ${Sort[@]}"
 echo ""
+
+#UC-8 : To sort the all results in Descending order
+echo "Sorted results in Descending order:"
+for k in "${!Sort[@]}"
+do
+  echo $k ' - ' ${Sort["$k"]}
+done | sort -rn -k3
+echo ""
